@@ -22,9 +22,9 @@ do
 done
 
 if [ $kan -lt 10 ]; then
-  	TITLE="第0${kan}巻"
+  	TITLE="[尾田栄一郎] ONE PIECE -ワンピース- 第0${kan}巻"
 else
-  	TITLE="第${kan}巻"
+  	TITLE="[尾田栄一郎] ONE PIECE -ワンピース- 第${kan}巻"
 fi
 
 echo "ZIPに圧縮中..."
